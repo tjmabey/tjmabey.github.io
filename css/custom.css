@@ -98,6 +98,15 @@ a.Link
   padding-top: 50px;
   padding-bottom: 30px;
 }
+#mobile-menu
+{
+  color: white;
+}
+
+#mobile-menu:hover
+{
+  background-color: #65FBC2;
+}
 
 .centered-text
 {

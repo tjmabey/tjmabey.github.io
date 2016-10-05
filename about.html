@@ -28,25 +28,35 @@
   </head>
   <body>
 
-    <!-- HEADER -->
+<!-- HEADER -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
-        <div class="navbar-header">
+
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" id="mobile-menu" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+          </button>
             <a class="navbar-brand" href="index.html">TYLER MABEY</a>
         </div>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="resume/resume.html">RESUME</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-        <li class="dropdown">
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="hidden"><a href=index.html></a></li>
+            <li class="page-scroll"><a href="index.html">HOME</a></li>
+            <li class="page-scroll"><a href="resume/resume.html">RESUME</a></li>
+            <li class="page-scroll"><a href="about.html">ABOUT</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
 
 <!-- CONTENT -->
     <div class="container">
             <div class="row">
-                <div class="col-md-10 col-md-offset-1" >
-                  <img class="center-block" id="image-padding" src="img/torrance.jpg" />
+                <div class="col-md-10 col-md-offset-1 col-xs-12">
+
+                    <img class="center-block img-responsive" id="image-padding" src="img/torrance.jpg" />
+
                   <h2 class="centered-text">About Me</h2>
                   <p>
                     <br />&nbsp&nbsp&nbsp&nbsp&nbsp I was born and raised in Torrance, California. From a young age, I have been captivated by computers, electronics, business and entrepeneurship. Realizing these were all my passions, I chose to study Information Systems at Brigham Young University. Today, I feel most excited when I am learning about the web, software development and design.
