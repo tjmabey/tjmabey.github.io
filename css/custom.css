@@ -74,6 +74,9 @@ p.resumepage
 a.Link
 {color: rgb(51, 51, 51);}
 
+li a
+{color: rgb(51, 51, 51);}
+
 #hi
 {
   margin: 0px;
