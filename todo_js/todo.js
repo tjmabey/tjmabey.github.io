@@ -1,4 +1,4 @@
-document.getElementById('add-btn').addEventListener('click', add);
+// document.getElementById('add-btn').addEventListener('click', add);
 show();
 
 function add() {
