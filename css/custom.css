@@ -65,6 +65,12 @@ p > a
   color: rgb(51, 51, 51);
 }
 
+p > b > a
+{
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+}
+
 p.resumepage
 {
   margin-bottom: 0px;
@@ -120,6 +126,9 @@ div span.dates:nth-of-type(2) { float:right; text-align: right;}
 div span.dates:nth-of-type(3) { float:right; text-align: right;}
 div span.dates:nth-of-type(4) { float:right; text-align: right;}
 /*================================FOOTER================================*/
+footer {
+  margin-top: 40px;
+}
 
 .footer
 {
