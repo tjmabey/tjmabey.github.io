@@ -4,6 +4,7 @@ body {
   background-color: #dff6f6;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Open Sans",
     "Helvetica Neue", sans-serif;
@@ -33,9 +34,12 @@ a:visited {
 
 #content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-content: space-between;
   margin: 5%;
+  font-weight: 800;
+  font-size: 4rem;
+  align-items: center;
 }
 
 #footer {
@@ -64,4 +68,9 @@ a:visited {
   flex-direction: row;
   justify-content: center;
   margin: 6px 0;
+}
+
+#image {
+  height: 4rem;
+  margin-left: 24px;
 }
